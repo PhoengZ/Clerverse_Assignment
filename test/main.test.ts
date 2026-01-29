@@ -22,4 +22,14 @@ describe("Start Testing", ()=>{
         expect(sol("MMDCCLLLXXX")).toBe(2880)
         expect(sol("MMMDDDCCCLLLXXXVVVIII")).toBe(4998)
     })
+
+    test("Subtraction symbols", ()=>{
+        expect(sol("IV")).toBe(4)
+        expect(sol("XXXIV")).toBe(34)
+        expect(sol("LIX")).toBe(59)
+        expect(sol("MDXL")).toBe(1540)
+        expect(sol("DDXC")).toBe(1090)
+        expect(sol("MCD")).toBe(1400)
+        expect(sol("MCM")).toBe(1900)
+    })
 })
