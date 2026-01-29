@@ -21,7 +21,7 @@ const val: Record<string, number> = {
   M: 1000,
 };
 
-function sol(s: string) {
+export function sol(s: string) {
   let stack: string[] = [];
   let ans = 0;
   for (let i = 0; i < s.length; i++) {
