@@ -39,5 +39,6 @@ function sol(s: string) {
 
 console.log(sol("MMVI"))
 console.log(sol("MCMXLIV"))
+console.log(sol("MMMDDDCCCLLLXXXVVVIII"))
 
 
