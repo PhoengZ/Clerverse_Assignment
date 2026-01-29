@@ -22,4 +22,9 @@ npm install
 npm test
 ```
 
+## Framework and tools
+- **Language:** TypeScript
+- **Testing:** Jest
+
+
 ### Phaolap Kulteera
