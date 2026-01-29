@@ -36,6 +36,3 @@ export function sol(s: string) {
   }
   return ans
 }
-
-
-
